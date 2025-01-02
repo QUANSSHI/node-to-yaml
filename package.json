@@ -1,0 +1,14 @@
+{
+  "name": "node-to-yaml",
+  "version": "1.0.0",
+  "description": "一个将节点数据转换为YAML格式的程序",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

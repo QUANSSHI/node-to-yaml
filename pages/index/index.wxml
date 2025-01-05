@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="header">
+    <text>自习室座位预订</text>
+  </view>
+
+  <view class="seat-list">
+    <block wx:for="{{seats}}" wx:key="id">
+      <view class="seat-item" data-id="{{item.id}}" bindtap="reserveSeat">
+        <text>座位 {{item.number}}</text>
+        <text class="status">{{item.status}}</text>
+      </view>
+    </block>
+  </view>
+</view>

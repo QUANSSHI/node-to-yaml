@@ -1,0 +1,26 @@
+.container {
+  padding: 20px;
+}
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.seat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.seat-item {
+  width: 48%;
+  margin: 1%;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.status {
+  font-size: 14px;
+  color: #888;
+}

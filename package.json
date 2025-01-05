@@ -13,3 +13,8 @@
     "miniprogram-api-typings": "^2.8.3-1"
   }
 }
+6. `app.json` 文件 (小程序配置文件): 
+7. `app.wxss` 文件 (小程序全局样式文件): 
+8. `project.config.json` 文件 (项目配置文件): 
+9. `sitemap.json` 文件 (小程序搜索索引配置文件): 
+10. `tsconfig.json` 文件 (TypeScript 配置文件): 
